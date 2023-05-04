@@ -51,7 +51,7 @@ def find_txt_file(list_files_folder):
     '''
     txt_files_list = []
     for i in range(0,len(list_files_folder)):
-        if ".txt" in list_files_folder[i]:
+        if "list_files_folder[i].endswith(".txt"):
             txt_files_list.append(list_files_folder[i])
     return txt_files_list
     
